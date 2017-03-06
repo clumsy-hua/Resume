@@ -1,0 +1,179 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+.swiper-slide {
+  background-image: url(../images/swiper1.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%; }
+
+.biaoti {
+  position: absolute;
+  top: 10%; }
+
+.ania {
+  color: #0066cc;
+  font-size: 21px;
+  font-weight: 800;
+  position: absolute;
+  font-family: MingLiU;
+  left: 1%; }
+
+.ani1 {
+  top: 40%; }
+
+.ani2 {
+  top: 55%; }
+
+.ani3 {
+  top: 70%; }
+
+.ani5 {
+  top: 70%; }
+
+.headpic {
+  border-radius: 100%;
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: 19%;
+  background-image: url(../images/head.jpg);
+  background-size: 100% 100%; }
+
+#audio_btn {
+  background-image: url(../images/music.svg);
+  background-size: 100% 100%;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  position: absolute;
+  top: 1%;
+  right: 5%;
+  animation: myfirst 5s infinite; }
+
+@keyframes myfirst {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+.tu {
+  position: absolute; }
+
+.tu1 {
+  top: 25%;
+  left: 20%; }
+
+.tu2 {
+  top: 25%;
+  left: 60%; }
+
+.tu3 {
+  top: 51%;
+  left: 23%; }
+
+.tu4 {
+  top: 51%;
+  left: 60%; }
+
+.tu5 {
+  top: 80%;
+  left: 23%; }
+
+.tu6 {
+  top: 80%;
+  left: 60%; }
+
+.tu7 {
+  top: 0%;
+  left: 3%; }
+
+.weixin {
+  position: absolute;
+  top: 52%; }
+
+.weixin1 {
+  position: absolute;
+  top: 51.5%; }
+
+.start {
+  position: absolute;
+  top: 73%;
+  left: 35%; }
+
+.liaojie {
+  position: absolute;
+  top: 16%;
+  left: 15%; }
+
+.liaojie1 {
+  position: absolute;
+  top: 14%;
+  left: 15%; }
+
+.liaojie2 {
+  position: absolute;
+  top: 26%;
+  left: 15%; }
+
+i {
+  font-weight: 900; }
+
+ul li {
+  list-style: none; }
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url(../images/swiper1.jpg); }
+
+.head_l {
+  display: flex;
+  flex: 1;
+  color: #0066cc; }
+
+.head_c {
+  width: 15%; }
+
+.head_r {
+  width: 15%; }
+
+.head_c i {
+  color: white; }
+
+.head_r i {
+  color: white; }
+
+#footer ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-image: url(../images/swiper1.jpg);
+  background-position: 0 -90px; }
+
+#footer ul li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px; }
+
+#footer ul li span {
+  color: #0066cc; }
+
+#footer ul li i {
+  color: #0066cc; }
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
